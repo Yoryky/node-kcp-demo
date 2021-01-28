@@ -1,0 +1,14 @@
+{
+  "name": "kcpserver",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "node-kcp": "^1.0.12"
+  }
+}

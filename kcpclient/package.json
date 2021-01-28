@@ -1,0 +1,14 @@
+{
+  "name": "kcpclient",
+  "version": "1.0.0",
+  "main": "client.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node client.js",
+    "start": "node client.js"
+  },
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "node-kcp": "^1.0.12"
+  }
+}
